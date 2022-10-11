@@ -18,14 +18,23 @@ export PATH=/usr/local/opt/:$PATH
 #######
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && 
-  \. "/usr/local/opt/nvm/nvm.sh"
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && 
-  \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && \
+   . "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \
+   . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
 
 ###########
 # aliases #
 ###########
 
-source $HOME/.config/profile/alias
+source $HOME/.config/settings/alias
 
+#######
+# art #
+#######
+
+ccat -G String="blink" \
+     -G Keyword="blink" \
+     -G Plaintext="blink" \
+     -G Punctuation="blink" \
+     $HOME/.config/settings/art

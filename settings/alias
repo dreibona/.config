@@ -5,17 +5,17 @@
 alias vim="$EDITOR"
 alias zshrc="$EDITOR $HOME/.config/zsh/.zshrc"
 alias als="$EDITOR $HOME/.config/profile/alias"
-alias reload='exec zsh -l'
-alias c='clear'
-alias q='exit'
-alias dv="cd $HOME/Developer/"
-alias db="cd $HOME/Developer/dreibona/"
-alias dd="cd $HOME/Developer/dreibona/dreibona-design"
+alias rl='exec zsh -l'
+alias cl='clear'
+alias qt='exit'
 alias nd=node
 alias nv=nvm
 alias bw=brew
 alias pm=pnpm
 alias ytd="youtube-dl -f bestaudio"
+alias dv="cd $HOME/Developer/"
+alias db="cd $HOME/Developer/dreibona/"
+alias dd="cd $HOME/Developer/dreibona/dreibona-design"
 alias md='mkdir -p'
 alias rd='rmdir'
 alias -- -='cd -'
@@ -31,6 +31,6 @@ alias l1='ls -1'
 ##########
 
 alias ps="sudo periodic daily weekly monthly && echo Done running daily, weekly, and monthly scripts"
-alias sbk="sudo rsync -varE --delete-delay --progress --include='*/' --files-from=$HOME/backup/include_list $HOME /Volumes/server/backup"
-alias dbk="sudo rsync -varE --progress --delete-delay --include='*/' --files-from=$HOME/backup/include_list $HOME /Volumes/data/backup_2022"
+alias sbk="sudo rsync -varE --delete-delay --progress --include='*/' --files-from=$HOME/.config/settings/list $HOME /Volumes/server/backup"
+alias dbk="sudo rsync -varE --delete-delay --progress --include='*/' --files-from=$HOME/.config/settings/list $HOME /Volumes/data/2022_backup"
 alias cbk="sudo rsync -varE --delete-delay --progress /Volumes/server/comics/ /Volumes/data/comics"
