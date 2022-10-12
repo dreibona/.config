@@ -11,16 +11,20 @@ source $ZSH/oh-my-zsh.sh
 # brew #
 ########
 
-export PATH=/usr/local/opt/:$PATH
+if [ "$(arch)" = "arm64" ]; then
+   export PATH="/opt/homebrew/bin:$PATH"
+else
+   export PATH="/usr/local/bin:$PATH"
+fi
 
 #######
 # nvm #
 #######
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && \
+[ -s "/usr/local/opt/nvm/nvm.sh" ] &&
    . "/usr/local/opt/nvm/nvm.sh"
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] &&
    . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
 
 ###########
