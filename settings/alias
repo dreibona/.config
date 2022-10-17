@@ -2,12 +2,12 @@
 # aliases #
 ###########
 
-alias vi="$EDITOR"
 alias zs="$EDITOR $HOME/.config/zsh/.zshrc"
 alias al="$EDITOR $HOME/.config/settings/alias"
 alias rl="exec zsh -l"
 alias cl="clear"
-alias qt="exit"
+alias qt="quit"
+alias et="exit"
 alias nd="node"
 alias nv="nvm"
 alias bw="brew"
@@ -24,7 +24,7 @@ alias lf="ls -AF"
 alias ll="ls -al"
 alias la="ls -a"
 alias l1="ls -1"
-alias  -="cd -"
+alias -- -="cd -"
 
 ##########
 # backup #
