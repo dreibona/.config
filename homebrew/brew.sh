@@ -32,7 +32,7 @@ brew update
 # Run Brew bundle, which will install everything in the file "Brewfile" #
 #########################################################################
 
-brew bundle --verbose
+brew bundle --verbose --no-lock
 
 ##########################
 # remove cache #
