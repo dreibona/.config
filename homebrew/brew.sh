@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #####################################################################
-# chmod +x ~/.config/homebrew/brew.sh && ~/.config/homebrew brew.sh #
+# chmod +x ~/.config/homebrew/brew.sh && ~/.config/homebrew/brew.sh #
 #####################################################################
 
 ########################################
@@ -32,7 +32,13 @@ brew update
 # Run Brew bundle, which will install everything in the file "Brewfile" #
 #########################################################################
 
-brew bundle 
+brew bundle --verbose
+
+##########################
+# remove cache #
+##########################
+
+brew cleanup -s
 
 ##########################
 # List of installed apps #
@@ -41,3 +47,7 @@ brew bundle
 echo ""
 echo "Brew List"
 brew list
+
+########################
+# brew uninstall --zap #
+########################
