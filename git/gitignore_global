@@ -14,6 +14,8 @@ htop
 .zcompdump*
 .zsh_history
 .zsh_sessions
+viminfo
+%Users%*
 
 #########
 # linux #

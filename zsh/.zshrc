@@ -1,3 +1,9 @@
+#######
+# vim #
+#######
+
+export VIMINIT="source $HOME/.config/vim/vimrc"
+
 #############
 # oh-my-zsh #
 #############
@@ -21,11 +27,20 @@ fi
 # nvm #
 #######
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] &&
-   . "/usr/local/opt/nvm/nvm.sh"
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] &&
-   . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
+if [ "$(arch)" = "arm64" ]; then
+   export NVM_DIR="$HOME/.nvm"
+   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] &&
+      . "/opt/homebrew/opt/nvm/nvm.sh"
+   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] &&
+      . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+else
+   export NVM_DIR="$HOME/.nvm"
+   [ -s "/usr/local/opt/nvm/nvm.sh" ] &&
+      . "/usr/local/opt/nvm/nvm.sh"
+   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] &&
+      . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
+fi
+
 
 ###########
 # aliases #

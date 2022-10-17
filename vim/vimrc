@@ -1,0 +1,13 @@
+set viminfo+=n$HOME/.config/vim/viminfo
+set undodir=$HOME/.config/vim/undodir
+set undofile
+set noswapfile
+set nobackup
+set history=1000
+set encoding=utf-8
+set autoindent
+set backspace=indent,eol,start
+set hidden
+set number
+set relativenumber
+set showmatch
