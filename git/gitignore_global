@@ -16,6 +16,7 @@ htop
 .zsh_sessions
 viminfo
 %Users%*
+Brewfile.lock.json
 
 #########
 # linux #
