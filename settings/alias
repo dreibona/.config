@@ -2,6 +2,8 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 
 # aliases
+alias zs="$EDITOR $HOME/.config/zsh/.zshrc"
+alias al="$EDITOR $HOME/.config/settings/alias"
 alias dv="cd $HOME/Developer/"
 alias db="cd $HOME/Developer/dreibona/"
 alias dd="cd $HOME/Developer/dreibona/dreibona-design"
