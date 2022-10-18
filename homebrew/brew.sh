@@ -1,53 +1,42 @@
 #!/bin/bash
 
-#####################################################################
-# chmod +x ~/.config/homebrew/brew.sh && ~/.config/homebrew/brew.sh #
-#####################################################################
+# chmod +x $HOME/.config/homebrew/brew.sh && $HOME/.config/homebrew/brew.sh
+# brew uninstall --zap
 
-########################################
-# Check for install, if not install it #
-########################################
+bold=$(tput bold)
+normal=$(tput sgr0)
 
+# check for install
 if test ! "$(which brew)"; then
-  echo "Installing homebrew"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo ""
+  echo "${bold}installing homebrew${normal}"
+  /bin/bash -c "$(curl -fssl https://raw.githubusercontent.com/homebrew/install/head/install.sh)"
+else
+  echo ""
+  echo "${bold}homebrew is installed${normal}"  
 fi
 
-#####################
-# Echo brew version #
-#####################
-
+# brew version
 echo ""
-echo "Brew version brew"
+echo "${bold}brew version${normal}"
 brew --version
 
-#########################
-# Update before install #
-#########################
-
+# update before install
 echo ""
+echo "${bold}brew update${normal}"
 brew update
 
-#########################################################################
-# Run Brew bundle, which will install everything in the file "Brewfile" #
-#########################################################################
-
+# install everything in the file brewfile
+echo ""
+echo "${bold}brew install${normal}"
 brew bundle --verbose --no-lock
 
-##########################
-# remove cache #
-##########################
-
+# remove cache
+echo ""
+echo "${bold}brew cleanup${normal}"
 brew cleanup -s
 
-##########################
-# List of installed apps #
-##########################
-
+# installed apps
 echo ""
-echo "Brew List"
+echo "${bold}brew list${normal}"
 brew list
-
-########################
-# brew uninstall --zap #
-########################

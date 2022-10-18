@@ -1,7 +1,4 @@
-#######
-# osx #
-#######
-
+# osx
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -17,16 +14,10 @@ htop
 viminfo
 %Users%*
 
-#########
-# linux #
-#########
-
+# linux
 *~
 
-###########
-# windows #
-###########
-
+# windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -36,10 +27,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-############
-# packages #
-############
-
+# packages
 *.7z
 *.csv
 *.dat
@@ -64,20 +52,14 @@ $RECYCLE.BIN/
 *.out
 *.pid
 
-######################
-# logs and databases #
-######################
-
+# logs and databases
 .tmp
 *.log
 *.sql
 *.sqlite
 *.sqlite3
 
-########
-# node #
-########
-
+# node
 lib-cov
 lcov.info
 pids
@@ -91,10 +73,7 @@ node_modules/
 *.seed
 build/Release
 
-########
-# yarn #
-########
-
+# yarn
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -103,10 +82,7 @@ build/Release
 !.yarn/sdks
 !.yarn/versions
 
-######################
-# yarn zero-installs #
-######################
-
+# yarn zero-installs
 #.yarn/*
 #!.yarn/cache
 #!.yarn/patches
@@ -115,19 +91,13 @@ build/Release
 #!.yarn/sdks
 #!.yarn/versions
 
-#########
-# tests #
-#########
-
+# tests
 testApp
 coverage
 junit.xml
 test/**/public
 
-#######
-# env #
-#######
-
+# env
 .env
 .env.local
 .env.development.local
@@ -135,28 +105,19 @@ test/**/public
 .env.production.local
 .env.production
 
-#########
-# debug #
-#########
-
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-##############
-# production #
-##############
-
+# production
 /build
 dist/
 .output/
 public/
 
-########
-# misc #
-########
-
+# misc
 *#
 *.pem
 ssl

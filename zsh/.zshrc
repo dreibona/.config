@@ -1,32 +1,20 @@
-#######
-# vim #
-#######
-
+# vim
 export VIMINIT="source $HOME/.config/vim/vimrc"
 
-#############
-# oh-my-zsh #
-#############
-
+# oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="refined"
 plugins=(copypath zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
-########
-# brew #
-########
-
+# brew
 if [ "$(arch)" = "arm64" ]; then
    export PATH="/opt/homebrew/bin:$PATH"
 else
    export PATH="/usr/local/bin:$PATH"
 fi
 
-#######
-# nvm #
-#######
-
+# nvm
 if [ "$(arch)" = "arm64" ]; then
    export NVM_DIR="$HOME/.nvm"
    [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] &&
@@ -41,17 +29,10 @@ else
       . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
 fi
 
-
-###########
-# aliases #
-###########
-
+# aliases
 source $HOME/.config/settings/alias
 
-#######
-# art #
-#######
-
+# art
 ccat -G String="blink" \
      -G Keyword="blink" \
      -G Plaintext="blink" \
