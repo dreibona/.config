@@ -38,3 +38,6 @@ ccat -G String="blink" \
      -G Plaintext="blink" \
      -G Punctuation="blink" \
      $HOME/.config/settings/art
+     
+# yacreaderlibraryserver
+export PATH="/Applications/YACReaderLibraryServer/Contents/MacOS:$PATH"

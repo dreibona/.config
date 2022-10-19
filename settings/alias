@@ -25,9 +25,10 @@ alias ll="ls -al"
 alias la="ls -a"
 alias l1="ls -1"
 alias -- -="cd -"
+alias yac="$HOME/.config/yacreader/./yacreader.sh"
 
 # backup
-alias ps="sudo periodic daily weekly monthly &&
+alias ss="sudo periodic daily weekly monthly &&
       echo '' &&
       echo '${bold}Done running daily, weekly, and monthly scripts${normal}' &&
       echo '' &&
