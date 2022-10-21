@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # chmod +x ~/.config/macos/osxpref.sh && ~/.config/macos/osxpref.sh
 
@@ -32,9 +32,6 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 # disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-# set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0
-
 # enable quitting via ⌘ + Q; doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
 
@@ -43,7 +40,7 @@ defaults write com.apple.finder QuitMenuItem -bool true
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 # show all files
-defaults write com.apple.finder AppleShowAllFiles NO
+defaults write com.apple.finder AppleShowAllFiles -bool false
 
 # empty trash securely by default
 defaults write com.apple.finder EmptyTrashSecurely -bool false
@@ -72,9 +69,6 @@ defaults write com.apple.Dock autohide-delay -float 0
 # automatically hide and show the dock
 defaults write com.apple.dock autohide -bool true
 
-# disable expose animation
-defaults write com.apple.dock expose-animation-duration -float 0
-
 # require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
@@ -87,11 +81,6 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # set bluetooth headset higher bitrate
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
-
-# enable tap to click (trackpad), also for login menu
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # kill affected applications
 for app in Safari Finder Dock Mail SystemUIServer; do killall "$app" >/dev/null 2>&1; done
