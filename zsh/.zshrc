@@ -1,3 +1,5 @@
+# https://zsh.sourceforge.io/Doc/Release/index.html
+
 # vim
 export VIMINIT="source $HOME/.config/vim/vimrc"
 
