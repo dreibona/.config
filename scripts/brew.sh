@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/homebrew/brew.sh && $HOME/.config/homebrew/brew.sh
+# chmod +x $HOME/.config/homebrew/brew.sh
 # brew uninstall --zap
 
 bold=$(tput bold)

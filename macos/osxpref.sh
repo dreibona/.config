@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# chmod +x ~/.config/macos/osxpref.sh && ~/.config/macos/osxpref.sh
+# chmod +x ~/.config/macos/osxpref.sh
 
 # show all processes in activity monitor
 defaults write com.apple.ActivityMonitor ShowCategory -int 0
