@@ -27,8 +27,9 @@ alias -- -="cd -"
 
 # scripts
 alias ss="$HOME/.config/scripts/maintenance.sh"
-alias yac="$HOME/.config/scripts/./yacreader.sh"
+alias yr="$HOME/.config/scripts/./yacreader.sh"
 alias up="$HOME/.config/scripts/./update.sh"
+alias op="$HOME/.config/scripts/./osxpref"
 
 # backup scripts
 alias sk="$HOME/.config/scripts/./server.sh"
