@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # chmod +x $HOME/.config/homebrew/brew.sh && $HOME/.config/homebrew/brew.sh
 # brew uninstall --zap
@@ -10,7 +10,7 @@ normal=$(tput sgr0)
 if test ! "$(which brew)"; then
   echo ""
   echo "${bold}installing homebrew${normal}"
-  /bin/bash -c "$(curl -fssl https://raw.githubusercontent.com/homebrew/install/head/install.sh)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
   echo ""
   echo "${bold}homebrew is installed${normal}"  
