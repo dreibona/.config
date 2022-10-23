@@ -7,6 +7,11 @@ Collection of dotfiles for my personal use.
 ###  Before running scripts
 
 ```bash
-chmod -R +x $HOME/.config/scripts &&
-chmod -x $HOME/.config/scripts/Brewfile
+chmod +x $HOME/.config/scripts/brew.sh        &&
+chmod +x $HOME/.config/scripts/comics.sh      &&
+chmod +x $HOME/.config/scripts/maintenance.sh &&
+chmod +x $HOME/.config/scripts/osxpref.sh     &&
+chmod +x $HOME/.config/scripts/server.sh      &&
+chmod +x $HOME/.config/scripts/update.sh      &&
+chmod +x $HOME/.config/scripts/yacreader.sh
 ```
