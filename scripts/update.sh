@@ -15,7 +15,7 @@ brew ls
 
 echo ""
 echo "${bold}brew outdated${normal}"
-brew outdated --formula --verbose
+brew outdated
 
 echo ""
 echo "${bold}brew upgrade${normal}"
