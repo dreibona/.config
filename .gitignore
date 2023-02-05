@@ -1,0 +1,8 @@
+.zcompdump*
+.zsh_history
+.zsh_sessions
+viminfo
+%Users%*
+gatsby
+configstore
+htop
