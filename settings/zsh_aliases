@@ -28,7 +28,6 @@ alias -- -="cd -"
 # scripts
 alias bu="$HOME/.config/scripts/brew.sh"
 alias ss="$HOME/.config/scripts/maintenance.sh"
-alias op="$HOME/.config/scripts/osxpref.sh"
 alias up="$HOME/.config/scripts/update.sh"
 alias yr="$HOME/.config/scripts/yacreader.sh"
 
