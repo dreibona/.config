@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/scripts/comics.sh
+# chmod +x $HOME/.config/scripts/comics.sh  -> make executable
 
 bold=$(tput bold)
 normal=$(tput sgr0)

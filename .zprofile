@@ -1,4 +1,4 @@
-# symlink -> ln -s $HOME/.config/.zprofile $HOME/
+# ln -s $HOME/.config/.zprofile $HOME/ -> create symlink
 
 export EDITOR="code"
 export XDG_CONFIG_HOME="$HOME/.config"

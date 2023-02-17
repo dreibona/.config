@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/scripts/update.sh
+# chmod +x $HOME/.config/scripts/update.sh -> make executable
 
 bold=$(tput bold)
 normal=$(tput sgr0)

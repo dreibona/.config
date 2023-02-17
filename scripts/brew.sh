@@ -1,7 +1,8 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/homebrew/brew.sh
-# brew uninstall --zap
+# chmod +x $HOME/.config/homebrew/brew.sh -> make executable
+# brew bundle dump -> create brewfile
+# brew uninstall --zap -> complete uninstall
 
 bold=$(tput bold)
 normal=$(tput sgr0)

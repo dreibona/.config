@@ -1,4 +1,4 @@
-# https://zsh.sourceforge.io/Doc/Release/index.html
+# https://zsh.sourceforge.io/Doc/Release/index.html -> zsh manual
 
 # vim
 export VIMINIT="source $HOME/.config/vim/vimrc"
@@ -31,6 +31,9 @@ else
       . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
 fi
 
+# yacreaderlibraryserver
+export PATH="/Applications/YACReaderLibraryServer/Contents/MacOS:$PATH"
+
 # aliases
 source $HOME/.config/settings/zsh_aliases
 
@@ -41,5 +44,3 @@ ccat -G String="blink" \
      -G Punctuation="blink" \
      $HOME/.config/settings/art.ascii
      
-# yacreaderlibraryserver
-export PATH="/Applications/YACReaderLibraryServer/Contents/MacOS:$PATH"

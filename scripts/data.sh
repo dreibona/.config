@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/scripts/data.sh
+# chmod +x $HOME/.config/scripts/data.sh  -> make executable
 
 bold=$(tput bold)
 normal=$(tput sgr0)
