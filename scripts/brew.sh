@@ -1,21 +1,12 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/homebrew/brew.sh -> make executable
+# chmod +x $HOME/.config/scripts/brew.sh -> make executable
 # brew bundle dump -> create brewfile
+# install Homebrew -> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # brew uninstall --zap -> complete uninstall
 
 bold=$(tput bold)
 normal=$(tput sgr0)
-
-# check for install
-if test ! "$(which brew)"; then
-  echo ""
-  echo "${bold}installing homebrew${normal}"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-else
-  echo ""
-  echo "${bold}homebrew is installed${normal}"  
-fi
 
 # brew version
 echo ""
@@ -35,7 +26,7 @@ brew bundle --verbose --no-lock
 # remove cache
 echo ""
 echo "${bold}brew cleanup${normal}"
-brew cleanup -s
+brew cleanup --verbose --prune=all
 
 # installed apps
 echo ""
