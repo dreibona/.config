@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/scripts/update.sh -> make executable
+# alias -> up
+# make executable -> chmod +x $HOME/.config/scripts/update.sh
 
 bold=$(tput bold)
 normal=$(tput sgr0)
@@ -24,7 +25,7 @@ brew upgrade
 echo ""
 echo "${bold}brew cask outdate${normal}"
 brew outdated --cask --greedy --verbose
-
-echo ""
-echo "${bold}brew cask upgrade${normal}"
-brew upgrade --cask --greedy
+#
+# echo ""
+# echo "${bold}brew cask upgrade${normal}"
+# brew upgrade --cask --greedy

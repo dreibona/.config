@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/scripts/data.sh  -> make executable
+# alias -> dk
+# make executable -> chmod +x $HOME/.config/scripts/data.sh
 
 bold=$(tput bold)
 normal=$(tput sgr0)

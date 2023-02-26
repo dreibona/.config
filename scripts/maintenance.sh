@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/scripts/maintenance.sh  -> make executable
+# alias -> ss
+# make executable -> chmod +x $HOME/.config/scripts/maintenance.sh
 
 bold=$(tput bold)
 normal=$(tput sgr0)

@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-# chmod +x $HOME/.config/scripts/yacreader.sh -> make executable
+# alias -> yr
+# make executable -> chmod +x $HOME/.config/scripts/yacreader.sh
 
 bold=$(tput bold)
 normal=$(tput sgr0)
