@@ -9,5 +9,5 @@ normal=$(tput sgr0)
 echo ""
 echo "${bold}backing up home to server${normal}"
 sudo rsync -varE --delete-delay --progress --include='*/' \
---files-from=$HOME/.config/settings/backup $HOME /Volumes/server/backup
+--files-from=$HOME/.config/settings/backup $HOME /Volumes/server/backup #| grep failed
 echo ""
