@@ -220,6 +220,8 @@
 	<false/>
 	<key>BlinkText</key>
 	<false/>
+	<key>CursorBlink</key>
+	<false/>
 	<key>CursorColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -302,15 +304,17 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
 	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERIT
-	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAMQAAAAAAABAQgAKAA18QHEhh
-	Y2tOZXJkRm9udENvbXBsZXRlLVJlZ3VsYXLSFxgZGlokY2xhc3NuYW1lWCRjbGFzc2Vz
-	Vk5TRm9udKIZG1hOU09iamVjdAgRGiQpMjdJTFFTWF5nbnd+hY6QkpSzuMPM09YAAAAA
-	AAABAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAAA3w==
+	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAMAAAAAAAABAQgAKAA18QD0Zp
+	cmFDb2RlLVJldGluYdIXGBkaWiRjbGFzc25hbWVYJGNsYXNzZXNWTlNGb250ohkbWE5T
+	T2JqZWN0CBEaJCkyN0lMUVNYXmdud36FjpCSlKartr/GyQAAAAAAAAEBAAAAAAAAABwA
+	AAAAAAAAAAAAAAAAAADS
 	</data>
 	<key>FontAntialias</key>
 	<true/>
+	<key>FontHeightSpacing</key>
+	<real>1</real>
 	<key>FontWidthSpacing</key>
-	<real>1.004032258064516</real>
+	<real>1</real>
 	<key>ProfileCurrentVersion</key>
 	<real>2.0699999999999998</real>
 	<key>SelectionColor</key>
@@ -387,6 +391,8 @@
 	MgA3AEkATABRAFMAWgBgAGsAeAB+AIsAoACnANEA+wD9AP8BAQEIAQ0BEwEVARcBGQ1l
 	DWoNdQ1+DYsNjg2bDaQNqQ2xAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAADbQ=
 	</data>
+	<key>ShouldRestoreContent</key>
+	<true/>
 	<key>ShowActiveProcessArgumentsInTabTitle</key>
 	<true/>
 	<key>ShowActiveProcessInTabTitle</key>
@@ -400,7 +406,7 @@
 	<key>ShowComponentsWhenTabHasCustomTitle</key>
 	<true/>
 	<key>ShowDimensionsInTitle</key>
-	<false/>
+	<true/>
 	<key>ShowRepresentedURLInTabTitle</key>
 	<true/>
 	<key>ShowRepresentedURLInTitle</key>
@@ -570,9 +576,9 @@
 	<key>UseBoldFonts</key>
 	<true/>
 	<key>UseBrightBold</key>
-	<false/>
+	<true/>
 	<key>columnCount</key>
-	<integer>100</integer>
+	<integer>82</integer>
 	<key>name</key>
 	<string>dream</string>
 	<key>noWarnProcesses</key>
@@ -587,7 +593,7 @@
 		</dict>
 	</array>
 	<key>rowCount</key>
-	<integer>26</integer>
+	<integer>20</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
