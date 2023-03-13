@@ -25,7 +25,7 @@ brew upgrade
 echo ""
 echo "${bold}brew cask outdate${normal}"
 brew outdated --cask --greedy --verbose
-#
-# echo ""
-# echo "${bold}brew cask upgrade${normal}"
-# brew upgrade --cask --greedy
+
+echo ""
+echo "${bold}brew cask upgrade${normal}"
+brew upgrade --cask --greedy

@@ -304,7 +304,7 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
 	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERIT
-	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAMAAAAAAAABAQgAKAA18QD0Zp
+	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNALAAAAAAAABAQgAKAA18QD0Zp
 	cmFDb2RlLVJldGluYdIXGBkaWiRjbGFzc25hbWVYJGNsYXNzZXNWTlNGb250ohkbWE5T
 	T2JqZWN0CBEaJCkyN0lMUVNYXmdud36FjpCSlKartr/GyQAAAAAAAAEBAAAAAAAAABwA
 	AAAAAAAAAAAAAAAAAADS
@@ -578,7 +578,7 @@
 	<key>UseBrightBold</key>
 	<true/>
 	<key>columnCount</key>
-	<integer>82</integer>
+	<integer>100</integer>
 	<key>name</key>
 	<string>dream</string>
 	<key>noWarnProcesses</key>
@@ -593,7 +593,7 @@
 		</dict>
 	</array>
 	<key>rowCount</key>
-	<integer>20</integer>
+	<integer>24</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
