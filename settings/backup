@@ -3,7 +3,11 @@
 Applications/
 Developer/
 Documents/
+Library/Application Support/
+Library/Fonts/
+Library/Preferences/
+Library/Services/
 Movies/
 Pictures/
-Library/
 Desktop/
+.zprofile
