@@ -1,22 +1,17 @@
-bold=$(tput bold)
-normal=$(tput sgr0)
 
 # aliases
-alias zs="$EDITOR $HOME/.config/zsh/.zshrc"
-alias al="$EDITOR $HOME/.config/settings/alias"
-alias dv="cd $HOME/Developer/"
-alias dd="cd $HOME/Developer/andrei.page"
+alias f="$EDITOR $HOME/.config/"
+alias d="cd $HOME/Developer/"
+alias a="cd $HOME/Developer/andrei.page"
 alias rl="exec zsh -l"
-alias cl="clear"
-alias qt="quit"
-alias et="exit"
-alias nd="node"
-alias nv="nvm"
-alias bw="brew"
-alias nm="npm"
-alias pm="pnpm"
+alias c="clear"
+alias q="quit"
+alias e="exit"
+alias n="nvm"
+alias b="brew"
+alias p="pnpm"
+alias t="trash"
 alias md="mkdir -p"
-alias ts="trash"
 alias ls="ls -G"
 alias lf="ls -AFG"
 alias ll="ls -al -G"
@@ -26,8 +21,8 @@ alias -- -="cd -"
 
 # scripts
 alias bu="$HOME/.config/scripts/brew.sh"
-alias ss="$HOME/.config/scripts/maintenance.sh"
-alias up="$HOME/.config/scripts/update.sh"
+alias mt="$HOME/.config/scripts/maintenance.sh"
+alias up="$HOME/.config/scripts/upgrade.sh"
 alias yr="$HOME/.config/scripts/yacreader.sh"
 
 # backup scripts
