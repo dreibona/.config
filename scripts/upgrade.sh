@@ -16,8 +16,8 @@ brew ls
 
 echo ""
 echo "${bold}brew outdated${normal}"
-brew outdated -g -v
+brew outdated -g
 
 echo ""
 echo "${bold}brew upgrade${normal}"
-brew upgrade -g -v
+brew upgrade -g
