@@ -7,7 +7,8 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 
 echo ""
-echo "${bold}backing up comics to data${normal}"
+echo "${bold}comics backup started${normal}"
 sudo rsync -varE --delete-delay --progress \
-/Volumes/server/comics/ /Volumes/data/comics #| grep failed
+/Volumes/server/comics/ /Volumes/data/comics
 echo ""
+echo "${bold}comics backup ended${normal}"

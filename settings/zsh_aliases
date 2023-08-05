@@ -1,16 +1,13 @@
 
 # aliases
-alias f="$EDITOR $HOME/.config/"
-alias d="cd $HOME/Developer/"
-alias a="cd $HOME/Developer/andrei.page"
+alias dev="cd $HOME/Developer/"
 alias rl="exec zsh -l"
-alias c="clear"
-alias q="quit"
-alias e="exit"
-alias n="nvm"
-alias b="brew"
-alias p="pnpm"
-alias t="trash"
+alias cl="clear"
+alias ne="node"
+alias nm="nvm"
+alias bw="brew"
+alias pm="pnpm"
+alias th="trash"
 alias md="mkdir -p"
 alias ls="ls -G"
 alias lf="ls -AFG"
@@ -19,13 +16,9 @@ alias la="ls -a -G"
 alias l1="ls -1 -G"
 alias -- -="cd -"
 
-# scripts
+# scripts aliases
 alias bu="$HOME/.config/scripts/brew.sh"
-alias mt="$HOME/.config/scripts/maintenance.sh"
 alias up="$HOME/.config/scripts/upgrade.sh"
-alias yr="$HOME/.config/scripts/yacreader.sh"
-
-# backup scripts
 alias ck="$HOME/.config/scripts/comics.sh"
 alias dk="$HOME/.config/scripts/data.sh"
 alias sk="$HOME/.config/scripts/server.sh"

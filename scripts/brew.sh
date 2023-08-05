@@ -2,8 +2,8 @@
 
 # # alias -> bu
 # make executable -> chmod +x $HOME/.config/scripts/brew.sh
-# install homebrew -> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-# uninstall formula or cask -> brew uninstall --zap
+# install -> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# uninstall cask -> brew uninstall --zap
 # create brewfile -> brew bundle dump  
 
 bold=$(tput bold)

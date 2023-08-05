@@ -7,7 +7,8 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 
 echo ""
-echo "${bold}backing up home to server${normal}"
+echo "${bold}server backup started${normal}"
 sudo rsync -varE --delete-delay --progress --include='*/' \
---files-from=$HOME/.config/settings/backup $HOME /Volumes/server/backup #| grep failed
+--files-from=$HOME/.config/settings/backup $HOME /Volumes/server/backup
 echo ""
+echo "${bold}server backup ended${normal}"
