@@ -1,4 +1,4 @@
-# .config
+## .config
 
 Collection of dotfiles for my personal use
 
