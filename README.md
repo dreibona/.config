@@ -1,10 +1,8 @@
 # .config
 
-### Info
-
 Collection of dotfiles for my personal use
 
-###  Before running scripts
+**Before running scripts**
 
 ```bash
 chmod +x $HOME/.config/scripts/brew.sh    &&
