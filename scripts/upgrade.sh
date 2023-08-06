@@ -14,3 +14,6 @@ brew outdated --greedy
 
 echo ""
 brew upgrade --greedy
+
+echo ""
+brew cleanup --prune=all -v

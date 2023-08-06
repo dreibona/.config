@@ -1,13 +1,15 @@
 .config/
 .oh-my-zsh/
+.vault/
+.zprofile
 Applications/
 Developer/
 Documents/
+Movies/
+Pictures/
+Desktop/
 Library/Application Support/
 Library/Fonts/
 Library/Preferences/
 Library/Services/
-Movies/
-Pictures/
-Desktop/
-.zprofile
+
