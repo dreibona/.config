@@ -37,10 +37,4 @@ export PATH="/Applications/YACReaderLibraryServer/Contents/MacOS:$PATH"
 # aliases
 source $HOME/.config/settings/zsh_aliases
 
-# art
-ccat -G String="blink" \
-     -G Keyword="blink" \
-     -G Plaintext="blink" \
-     -G Punctuation="blink" \
-     $HOME/.config/settings/art.ascii
      

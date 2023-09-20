@@ -1,8 +1,6 @@
 .config/
 .oh-my-zsh/
-.vault/
 .zprofile
-Applications/
 Developer/
 Documents/
 Movies/
