@@ -9,6 +9,6 @@ normal=$(tput sgr0)
 echo ""
 echo "${bold}data backup started${normal}"
 sudo rsync -varE --delete-delay --progress --include='*/' \
---files-from=$HOME/.config/settings/backup $HOME /Volumes/data/2023_backup
+--files-from=$HOME/.config/settings/backup $HOME /Volumes/data/2024_backup
 echo ""
 echo "${bold}data backup ended${normal}"

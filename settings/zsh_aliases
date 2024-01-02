@@ -1,13 +1,7 @@
 
 # aliases
 alias dev="cd $HOME/Developer/"
-alias rl="exec zsh -l"
-alias cl="clear"
-alias ne="node"
-alias nm="nvm"
-alias bw="brew"
-alias pm="pnpm"
-alias th="trash"
+alias reload="exec zsh -l"
 alias md="mkdir -p"
 alias ls="ls -G"
 alias lf="ls -AFG"

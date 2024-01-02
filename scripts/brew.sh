@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# # alias -> bu
+# alias -> bu
 # make executable -> chmod +x $HOME/.config/scripts/brew.sh
 # install -> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # uninstall cask -> brew uninstall --zap
