@@ -1,4 +1,4 @@
-# https://zsh.sourceforge.io/Doc/Release/index.html -> zsh manual
+# https://zsh.sourceforge.io/Doc/Release/index.html -> zsh doc
 
 # vim
 export VIMINIT="source $HOME/.config/vim/vimrc"
@@ -36,5 +36,3 @@ export PATH="/Applications/YACReaderLibraryServer/Contents/MacOS:$PATH"
 
 # aliases
 source $HOME/.config/settings/zsh_aliases
-
-     

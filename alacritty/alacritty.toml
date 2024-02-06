@@ -1,0 +1,42 @@
+live_config_reload = true
+
+[font]
+normal = {family = "GeistMono NF"}
+size = 16
+
+[window]
+decorations = 'buttonless'
+dynamic_padding = false
+opacity = 0.98
+padding = { x = 24, y = 24 }
+dimensions = { columns = 100, lines = 30 }
+
+[cursor]
+style ={ shape = 'Underline'}
+
+[colors.primary]
+background = '#18191F'
+foreground = '#CCCCCC'
+
+[colors.cursor]
+cursor = '#54B9FF'
+
+[colors.normal]
+black   = '#17191E'
+red     = '#DC3657'
+green   = '#64CD90'
+yellow  = '#F6C676'
+blue    = '#36A0FF'
+magenta = '#AD5DCA'
+cyan    = '#24C0CF'
+white   = '#EEF0F9'
+
+[colors.bright]
+black   = '#545864'
+red     = '#F4587E'
+green   = '#4BF3C8'
+yellow  = '#FFD493'
+blue    = '#54B9FF'
+magenta = '#CC75F4'
+cyan    = '#63D7EC'
+white   = '#FBFBFB'

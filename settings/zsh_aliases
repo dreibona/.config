@@ -1,4 +1,3 @@
-
 # aliases
 alias dev="cd $HOME/Developer/"
 alias reload="exec zsh -l"
