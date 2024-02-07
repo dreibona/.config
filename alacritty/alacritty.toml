@@ -1,42 +1,40 @@
 live_config_reload = true
 
 [font]
-normal = {family = "GeistMono NF"}
+normal = {family = 'GeistMono NF'}
 size = 16
 
 [window]
 decorations = 'buttonless'
 dynamic_padding = false
-opacity = 0.98
-padding = { x = 24, y = 24 }
+opacity = 1
+padding = { x = 20, y = 15 }
 dimensions = { columns = 100, lines = 30 }
+option_as_alt = "OnlyLeft"
 
 [cursor]
 style ={ shape = 'Underline'}
 
 [colors.primary]
-background = '#18191F'
-foreground = '#CCCCCC'
-
-[colors.cursor]
-cursor = '#54B9FF'
+background = "#17191e"
+foreground = "#cccccc"
 
 [colors.normal]
-black   = '#17191E'
-red     = '#DC3657'
-green   = '#64CD90'
-yellow  = '#F6C676'
-blue    = '#36A0FF'
-magenta = '#AD5DCA'
-cyan    = '#24C0CF'
-white   = '#EEF0F9'
+white = "#eef0f9"
+red = "#dc3657"
+green = "#23d18b"
+blue = "#2b7eca"
+cyan = "#24c0cf"
+magenta = "#ad5dca"
+yellow = "#ffc368"
+black = "#17191e"
 
 [colors.bright]
-black   = '#545864'
-red     = '#F4587E'
-green   = '#4BF3C8'
-yellow  = '#FFD493'
-blue    = '#54B9FF'
-magenta = '#CC75F4'
-cyan    = '#63D7EC'
-white   = '#FBFBFB'
+white = "#fafafa"
+red = "#f4587e"
+green = "#4bf3c8"
+blue = "#54b9ff"
+cyan = "#00daef"
+magenta = "#cc75f4"
+yellow = "#ffd493"
+black = "#545864"

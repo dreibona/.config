@@ -1,0 +1,29 @@
+format = """
+$directory$git_branch$git_status$nodejs$fill$time
+$character
+"""
+[fill]
+symbol = " "
+
+[directory]
+truncate_to_repo = false
+
+[git_branch]
+format = '[\[$branch(:$remote_branch)]($style) '
+
+[git_status]
+format = '([$all_status$ahead_behind\]](purple)) '
+
+[nodejs]
+format = '[$version ](green)'
+
+[line_break]
+disabled = true
+
+[character]
+success_symbol = '[→](cyan)'
+error_symbol = '[✗](red)'
+
+[time]
+disabled = false
+format = '[$time](yellow)'

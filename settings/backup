@@ -1,5 +1,4 @@
 .config/
-.oh-my-zsh/
 .zprofile
 Applications/
 Developer/
@@ -12,4 +11,3 @@ Library/Application Support/
 Library/Fonts/
 Library/Preferences/
 Library/Services/
-

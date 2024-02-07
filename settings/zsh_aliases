@@ -1,12 +1,12 @@
 # aliases
 alias dev="cd $HOME/Developer/"
+alias zj="zellij"
 alias reload="exec zsh -l"
 alias md="mkdir -p"
-alias ls="ls -G"
-alias lf="ls -AFG"
-alias ll="ls -al -G"
-alias la="ls -a -G"
-alias l1="ls -1 -G"
+alias ls="ls -FG"
+alias lh="ls -AFG"
+alias ll="ls -l -G"
+alias lg="ls -al -G"
 alias -- -="cd -"
 
 # scripts aliases

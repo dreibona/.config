@@ -1,0 +1,22 @@
+# Houston Theme
+
+[normal]
+white = "#eef0f9"
+red = "#dc3657"
+green = "#23d18b"
+blue = "#2b7eca"
+cyan = "#24c0cf"
+magenta = "#ad5dca"
+yellow = "#ffc368"
+black = "#17191e"
+orange = "#fcab32"
+
+[bright]
+white = "#fafafa"
+red = "#f4587e"
+green = "#4bf3c8"
+blue = "#54b9ff"
+cyan = "#00daef"
+magenta = "#cc75f4"
+yellow = "#ffd493"
+black = "#545864"

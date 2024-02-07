@@ -4,9 +4,6 @@
 # make executable -> chmod +x $HOME/.config/scripts/upgrade.sh
 
 echo ""
-$ZSH/tools/upgrade.sh
-
-echo ""
 brew ls
 
 echo ""

@@ -1,14 +1,5 @@
 # https://zsh.sourceforge.io/Doc/Release/index.html -> zsh doc
 
-# vim
-export VIMINIT="source $HOME/.config/vim/vimrc"
-
-# oh-my-zsh
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="refined"
-plugins=(copypath zsh-autosuggestions zsh-syntax-highlighting)
-source $ZSH/oh-my-zsh.sh
-
 # brew
 if [ "$(arch)" = "arm64" ]; then
    export PATH="/opt/homebrew/bin:$PATH"
@@ -31,8 +22,24 @@ else
       . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
 fi
 
+# aliases
+source $HOME/.config/settings/zsh_aliases
+
+# zsh history
+source $ZSH/history.zsh
+
+# zsh-autosuggestions
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # yacreaderlibraryserver
 export PATH="/Applications/YACReaderLibraryServer/Contents/MacOS:$PATH"
 
-# aliases
-source $HOME/.config/settings/zsh_aliases
+# vim
+export VIMINIT="source $HOME/.config/vim/vimrc"
+
+# starship
+eval "$(starship init zsh)"
+export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
+
+# zellij
+eval "$(zellij setup --generate-auto-start zsh)"
