@@ -7,23 +7,8 @@ else
    export PATH="/usr/local/bin:$PATH"
 fi
 
-# nvm
-if [ "$(arch)" = "arm64" ]; then
-   export NVM_DIR="$HOME/.nvm"
-   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] &&
-      . "/opt/homebrew/opt/nvm/nvm.sh"
-   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] &&
-      . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
-else
-   export NVM_DIR="$HOME/.nvm"
-   [ -s "/usr/local/opt/nvm/nvm.sh" ] &&
-      . "/usr/local/opt/nvm/nvm.sh"
-   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] &&
-      . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
-fi
-
 # aliases
-source $HOME/.config/settings/zsh_aliases
+source $HOME/.config/settings/aliases
 
 # zsh history
 source $ZSH/history.zsh
@@ -43,3 +28,6 @@ export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 
 # zellij
 eval "$(zellij setup --generate-auto-start zsh)"
+
+# fast node manager
+eval "$(fnm env --use-on-cd)"
