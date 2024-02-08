@@ -1,5 +1,5 @@
 format = """
-$directory$git_branch$git_status$nodejs$fill$time
+[┏━\\[](cyan)$directory$git_branch$git_status$nodejs[\\]](cyan)$fill$time
 $character
 """
 [fill]
@@ -7,22 +7,23 @@ symbol = " "
 
 [directory]
 truncate_to_repo = false
+format = '[$path]($style)'
 
 [git_branch]
-format = '[\[$branch(:$remote_branch)]($style) '
+format = '[ $branch(:$remote_branch)](purple)'
 
 [git_status]
-format = '([$all_status$ahead_behind\]](purple)) '
+format = '([\($all_status$ahead_behind\)](purple))'
 
 [nodejs]
-format = '[$version ](green)'
+format = '[ $version](green)'
 
 [line_break]
 disabled = true
 
 [character]
-success_symbol = '[→](cyan)'
-error_symbol = '[✗](red)'
+success_symbol = '[┗❯](cyan)'
+error_symbol = '[┗](cyan)[✘](red)'
 
 [time]
 disabled = false
