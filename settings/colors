@@ -10,6 +10,7 @@ magenta = "#ad5dca"
 yellow = "#ffc368"
 black = "#17191e"
 orange = "#fcab32"
+grey = "#383c47"
 
 [bright]
 white = "#fafafa"

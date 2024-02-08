@@ -190,7 +190,7 @@ plugins {
 
 themes {
     houston {
-    bg "#17191e"
+    bg "#383c47"
     fg "#cccccc"
     red "#dc3657"
     green "#23d18b"
