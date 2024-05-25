@@ -1,5 +1,5 @@
 format = """
-[┏━\\[](cyan)$directory$git_branch$git_status$nodejs[\\]](cyan)$fill$time
+[┏━\\[](cyan)$directory$git_branch$git_status[\\]](cyan)$fill$time
 $character
 """
 [fill]
@@ -14,9 +14,6 @@ format = '[ $branch(:$remote_branch)](purple)'
 
 [git_status]
 format = '([\($all_status$ahead_behind\)](purple))'
-
-[nodejs]
-format = '[ $version](green)'
 
 [line_break]
 disabled = true
