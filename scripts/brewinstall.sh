@@ -1,13 +1,14 @@
 #!/bin/zsh
 
-# alias -> bu
-# make executable -> chmod +x $HOME/.config/scripts/brew.sh
-# install -> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# alias -> bi
+# make executable -> chmod +x $HOME/.config/scripts/brewinstall.sh
 # uninstall cask -> brew uninstall --zap
-# create brewfile -> brew bundle dump  
+# create brewfile -> brew bundle dump
 
 bold=$(tput bold)
 normal=$(tput sgr0)
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 echo ""
 echo "${bold}brew version${normal}"

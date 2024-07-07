@@ -1,19 +1,19 @@
 live_config_reload = true
 
 [font]
-normal = {family = 'GeistMono NF'}
-size = 16
+normal = { family = 'Zed Mono', style = 'Extended' }
+size = 18
 
 [window]
 decorations = 'buttonless'
 dynamic_padding = false
 opacity = 1
 padding = { x = 20, y = 15 }
-dimensions = { columns = 100, lines = 30 }
+dimensions = { columns = 112, lines = 30 }
 option_as_alt = "OnlyLeft"
 
 [cursor]
-style ={ shape = 'Underline'}
+style = { shape = 'Underline' }
 
 [colors.primary]
 background = "#17191e"

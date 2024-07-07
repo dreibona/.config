@@ -1,5 +1,5 @@
 format = """
-[┏━\\[](cyan)$directory$git_branch$git_status[\\]](cyan)$fill$time
+$directory$git_branch$git_status$nodejs
 $character
 """
 [fill]
@@ -7,21 +7,34 @@ symbol = " "
 
 [directory]
 truncate_to_repo = false
-format = '[$path]($style)'
+read_only = " ro"
 
 [git_branch]
-format = '[ $branch(:$remote_branch)](purple)'
+format = '[\[$branch(:$remote_branch)]($style) '
+symbol = "git "
 
 [git_status]
-format = '([\($all_status$ahead_behind\)](purple))'
+format = '([$all_status$ahead_behind\]](purple)) '
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "x"
+
+[nodejs]
+format = '[$version ](green)'
+symbol = "nodejs "
 
 [line_break]
 disabled = true
 
 [character]
-success_symbol = '[┗❯](cyan)'
-error_symbol = '[┗](cyan)[✘](red)'
+success_symbol = '[→ ](green)'
+error_symbol = '[✗ ](red)'
 
 [time]
 disabled = false
 format = '[$time](yellow)'
+
+[git_commit]
+tag_symbol = " tag "
