@@ -1,4 +1,4 @@
-# ln -s $HOME/.config/.zprofile $HOME/ -> create symlink
+# ln -s $CONFIG/.zprofile $HOME/ -> create symlink
 
 export CONFIG="$HOME/.config"
 export CACHE="$HOME/.cache"

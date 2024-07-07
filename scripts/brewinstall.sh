@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # alias -> bi
-# make executable -> chmod +x $HOME/.config/scripts/brewinstall.sh
+# make executable -> chmod +x $CONFIG/scripts/brewinstall.sh
 # uninstall cask -> brew uninstall --zap
 # create brewfile -> brew bundle dump
 
