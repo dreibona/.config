@@ -1,29 +1,32 @@
-format = """
-$directory$git_branch$git_status$nodejs
+format = '''
+$directory$git_branch$git_status$git_commit
 $character
-"""
+'''
 [fill]
-symbol = " "
+symbol = ' '
 
 [directory]
+style = 'cyan'
 truncate_to_repo = false
-read_only = " ro"
+read_only = 'ro'
 
 [git_branch]
-format = '[\[$branch(:$remote_branch)]($style) '
-symbol = "git "
+format = '[\[ $branch(:$remote_branch)](purple) '
+symbol = ' '
 
 [git_status]
-format = '([$all_status$ahead_behind\]](purple)) '
-ahead = ">"
-behind = "<"
-diverged = "<>"
-renamed = "r"
-deleted = "x"
-
-[nodejs]
-format = '[$version ](green)'
-symbol = "nodejs "
+format = '[$all_status$ahead_behind \]](purple) '
+ahead = '↑${count}'
+behind = '⇣${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+renamed = '»'
+deleted = 'x'
+conflicted = '='
+up_to_date = '✓'
+untracked = '?'
+stashed = '$'
+modified = '!'
+staged = '[++\($count\)](yellow)'
 
 [line_break]
 disabled = true
@@ -37,4 +40,4 @@ disabled = false
 format = '[$time](yellow)'
 
 [git_commit]
-tag_symbol = " tag "
+tag_symbol = ' tag '
