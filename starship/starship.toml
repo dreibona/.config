@@ -12,7 +12,6 @@ read_only = 'ro'
 
 [git_branch]
 format = '[\[ $branch(:$remote_branch)](purple) '
-symbol = ' '
 
 [git_status]
 format = '[$all_status$ahead_behind \]](purple) '
