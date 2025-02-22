@@ -1,19 +1,22 @@
-live_config_reload = true
 
 [font]
 normal = { family = 'Zed Mono', style = 'Extended' }
 size = 18
 
 [window]
-decorations = 'buttonless'
+decorations = 'full'
 dynamic_padding = false
 opacity = 1
-padding = { x = 20, y = 15 }
+padding = { x = 15, y = 20 }
 dimensions = { columns = 112, lines = 30 }
 option_as_alt = "OnlyLeft"
 
+
+[selection]
+save_to_clipboard = true
+
 [cursor]
-style = { shape = 'Underline' }
+style = { shape = 'Beam'}
 
 [colors.primary]
 background = "#17191e"
@@ -38,3 +41,6 @@ cyan = "#00daef"
 magenta = "#cc75f4"
 yellow = "#ffd493"
 black = "#545864"
+
+[general]
+live_config_reload = true

@@ -541,7 +541,7 @@
 	AAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAADdQ==
 	</data>
 	<key>CursorType</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>DisableANSIColor</key>
 	<false/>
 	<key>EastAsianAmbiguousWide</key>
@@ -592,6 +592,8 @@
 	<true/>
 	<key>ShowActiveProcessArgumentsInTabTitle</key>
 	<true/>
+	<key>ShowActiveProcessArgumentsInTitle</key>
+	<false/>
 	<key>ShowActiveProcessInTabTitle</key>
 	<false/>
 	<key>ShowActiveProcessInTitle</key>
@@ -603,11 +605,11 @@
 	<key>ShowComponentsWhenTabHasCustomTitle</key>
 	<true/>
 	<key>ShowDimensionsInTitle</key>
-	<true/>
+	<false/>
 	<key>ShowRepresentedURLInTabTitle</key>
 	<true/>
 	<key>ShowRepresentedURLInTitle</key>
-	<true/>
+	<false/>
 	<key>ShowRepresentedURLPathInTabTitle</key>
 	<true/>
 	<key>ShowRepresentedURLPathInTitle</key>
