@@ -1,6 +1,14 @@
 # https://zsh.sourceforge.io/Doc/Release/index.html -> zsh doc
 
-# zsh
+# append the current directory (%~) and command to window title
+  precmd() {
+    print -Pn "\e]0;%~\a"
+  }
+  preexec() {
+        echo -en "\e]0;${1}\a"
+  }
+
+# plugins
 source $HOMEBREW/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOMEBREW/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
