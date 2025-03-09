@@ -1,13 +1,5 @@
 # https://zsh.sourceforge.io/Doc/Release/index.html -> zsh doc
 
-# append the current directory (%~) and command to window title
-  precmd() {
-    print -Pn "\e]0;%~\a"
-  }
-  preexec() {
-        echo -en "\e]0;${1}\a"
-  }
-
 # plugins
 source $HOMEBREW/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOMEBREW/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -32,8 +24,8 @@ alias ls="ls -FG"
 alias lh="ls -AFG"
 alias ll="ls -l -G"
 alias lg="ls -al -G"
-alias bi="$CONFIG/scripts/brewinstall.sh"
-alias up="$CONFIG/scripts/brewupgrade.sh"
+alias bi="$XDG_CONFIG_HOME/scripts/brewinstall.sh"
+alias up="$XDG_CONFIG_HOME/scripts/brewupgrade.sh"
 
 # keybindings for autosuggestions
 bindkey '^d' autosuggest-accept
@@ -51,4 +43,4 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # starship
 eval "$(starship init zsh)"
-export STARSHIP_CONFIG=$CONFIG/starship/starship.toml
+export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship/starship.toml

@@ -1,5 +1,5 @@
-set viminfo+=n$CONFIG/vim/viminfo
-set undodir=$CONFIG/vim/undodir
+set viminfo+=n$XDG_CONFIG_HOME/vim/viminfo
+set undodir=$XDG_CONFIG_HOME/vim/undodir
 set undofile
 set noswapfile
 set nobackup
