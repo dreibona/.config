@@ -20,7 +20,7 @@ brew update
 
 echo ""
 echo "${bold}brew install${normal}"
-brew bundle --verbose --no-lock
+brew bundle install --verbose
 
 # remove cache
 echo ""

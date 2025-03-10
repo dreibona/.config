@@ -3,6 +3,10 @@
 Collection of dotfiles for my personal use
 
 ```bash
-chmod +x $XDG_CONFIG_HOME/scripts/brewupgrade.sh  &&
-chmod +x $XDG_CONFIG_HOME/scripts/brewinstall.sh  &&
+ln -s $HOME/.config/.zprofile $HOME/
+```
+
+```bash
+chmod +x $HOME/.config/scripts/brewupgrade.sh  &&
+chmod +x $HOME/.config//scripts/brewinstall.sh
 ```

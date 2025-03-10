@@ -1,4 +1,4 @@
-# ln -s $XDG_CONFIG_HOME/.zprofile $HOME/ -> create symlink
+# ln -s $HOME/.config/.zprofile $HOME/ -> create symlink
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
