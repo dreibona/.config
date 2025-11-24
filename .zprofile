@@ -1,8 +1,9 @@
 # ln -s $HOME/.config/.zprofile $HOME/ -> create symlink
 
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_CACHE_HOME="$HOME/.cache"
-export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
-export ZSH="$XDG_CONFIG_HOME/zsh"
+export CONFIG="$HOME/.config"
+export LOCAL="$HOME/.local"
+export CACHE="$HOME/.cache"
+export ZDOTDIR="$CONFIG/zsh"
+export ZSH="$CONFIG/zsh"
 export HOMEBREW="/opt/homebrew"
 export EDITOR="zed"
