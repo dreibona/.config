@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # alias -> up
-# make executable -> chmod +x $XDG_CONFIG_HOME/scripts/brewupgrade.sh
+# make executable -> chmod +x $HOME/.config/scripts/brewupgrade.sh
 
 echo ""
 brew ls
