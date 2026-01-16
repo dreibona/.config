@@ -35,15 +35,9 @@ bindkey '^e' history-search-forward
 # brew
 export PATH="$HOMEBREW/bin:$PATH"
 
-# fast node manager
-eval "$(fnm env --use-on-cd)"
-
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
 # starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=$CONFIG/starship/starship.toml
-
-# pipx
-export PATH="$PATH:$LOCAL/bin"
