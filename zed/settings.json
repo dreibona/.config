@@ -7,10 +7,13 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "git_panel": {
-    "tree_view": false
+  "terminal": {
+    "copy_on_select": true,
+    "minimum_contrast": 50.0,
+    "cursor_shape": "bar",
+    "font_weight": 300.0,
+    "font_size": 16.0,
   },
-  "icon_theme": "Zed (Default)",
   "toolbar": {
     "quick_actions": false,
     "breadcrumbs": false,
