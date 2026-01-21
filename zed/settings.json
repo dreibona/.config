@@ -19,7 +19,7 @@
     "font_weight": 300.0,
     "font_size": 14.0,
     "copy_on_select": true,
-    "cursor_shape": "bar",
+    "cursor_shape": "block",
   },
   "prettier": {
     "allowed": true,
