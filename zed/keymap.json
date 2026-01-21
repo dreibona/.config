@@ -1,0 +1,60 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-q": "project_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-w": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-e": "agent::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-<": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-alt-a": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-z": "terminal_panel::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-x": "debug_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-a": "outline_panel::ToggleFocus"
+    }
+  },
+  {
+    "bindings": {
+      "alt-s": "collab_panel::ToggleFocus"
+    }
+  },
+  {
+    "bindings": {
+      "alt-d": "notification_panel::ToggleFocus"
+    }
+  }
+]
