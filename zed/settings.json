@@ -1,77 +1,74 @@
 {
-  "disable_ai": true,
+  // --- AI ---
+  "diff_view_style": "unified",
+  "language_models": {
+    "google": {
+      "available_models": [
+        {
+          "name": "gemini-3.1-pro-preview",
+          "display_name": "Gemini 3.1 Pro",
+          "max_tokens": 1000000,
+          "mode": {
+            "type": "thinking",
+            "budget_tokens": 24000,
+          },
+        },
+        {
+          "name": "gemini-3-flash-preview",
+          "display_name": "Gemini 3 Flash",
+          "max_tokens": 1000000,
+          "mode": {
+            "type": "thinking",
+            "budget_tokens": 8000,
+          },
+        },
+      ],
+    },
+  },
+  "agent": {
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-3.1-pro-preview",
+    },
+  },
+  "context_servers": {
+    "mcp-server-context7": {
+      "enabled": true,
+      "settings": {
+        "context7_api_key": "${CONTEXT7_API_KEY}",
+      },
+    },
+  },
+
+  // --- UI ---
   "theme": "Ayu Dark",
   "ui_font_size": 14,
-  "ui_font_weight": 300.0,
+  "ui_font_weight": 300,
   "ui_font_family": "VictorMono Nerd Font Propo",
-  "buffer_font_size": 17.0,
-  "buffer_font_weight": 300.0,
+  "buffer_font_size": 17,
+  "buffer_font_weight": 300,
   "buffer_font_family": "VictorMono Nerd Font Propo",
   "buffer_line_height": "comfortable",
+  "gutter": { "min_line_number_digits": 3 },
+  "tab_bar": { "show_nav_history_buttons": false },
+  "title_bar": { "show_user_picture": false },
+  "toolbar": { "quick_actions": false, "breadcrumbs": false },
+  "indent_guides": { "coloring": "indent_aware" },
+
+  // --- EDITOR ---
+  "format_on_save": "on",
+  "tab_size": 2,
+  "preferred_line_length": 100,
   "soft_wrap": "preferred_line_length",
-  "preferred_line_length": 80,
-  "show_wrap_guides": true,
-  "show_whitespaces": "selection",
-  "cursor_shape": "bar",
-  "cursor_blink": false,
   "colorize_brackets": true,
-  "always_treat_brackets_as_autoclosed": true,
+  "show_wrap_guides": true,
+  "disable_ai": false,
+
+  // --- TERMINAL ---
   "terminal": {
-    "font_weight": 300.0,
-    "font_size": 14.0,
+    "font_size": 14,
+    "font_weight": 300,
     "copy_on_select": true,
     "cursor_shape": "bar",
-  },
-  "languages": {
-    "JavaScript": {
-      "prettier": {
-        "singleQuote": true,
-        "allowed": true,
-      },
-    },
-    "Astro": {
-      "prettier": {
-        "singleQuote": true,
-        "allowed": true,
-        "plugins": ["prettier-plugin-astro"],
-      },
-    },
-  },
-  "gutter": {
-    "min_line_number_digits": 3,
-    "folds": true,
-    "line_numbers": true,
-  },
-  "indent_guides": {
-    "coloring": "indent_aware",
-  },
-  "tab_size": 2,
-  "tab_bar": {
-    "show_nav_history_buttons": false,
-  },
-  "title_bar": {
-    "show_user_picture": false,
-  },
-  "toolbar": {
-    "quick_actions": false,
-    "breadcrumbs": false,
-  },
-  "project_panel": {
-    "default_width": 300,
-    "entry_spacing": "standard",
-    "dock": "left",
-  },
-  "collaboration_panel": {
-    "default_width": 300,
-  },
-  "notification_panel": {
-    "dock": "left",
-    "default_width": 300,
-  },
-  "git_panel": {
-    "default_width": 300,
-  },
-  "outline_panel": {
-    "default_width": 300,
   },
 }

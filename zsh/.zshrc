@@ -41,3 +41,6 @@ eval "$(zoxide init --cmd cd zsh)"
 # starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=$CONFIG/starship/starship.toml
+
+# secrets
+[ -f $HOME/.secrets ] && source $HOME/.secrets
