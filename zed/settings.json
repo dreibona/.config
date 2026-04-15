@@ -1,6 +1,5 @@
 {
   // --- AI ---
-  "diff_view_style": "unified",
   "language_models": {
     "google": {
       "available_models": [
@@ -27,8 +26,9 @@
   },
   "agent": {
     "default_model": {
+      "enable_thinking": true,
       "provider": "google",
-      "model": "gemini-3.1-pro-preview",
+      "model": "gemini-3-flash-preview",
     },
   },
   "context_servers": {
@@ -49,20 +49,36 @@
   "buffer_font_weight": 300,
   "buffer_font_family": "VictorMono Nerd Font Propo",
   "buffer_line_height": "comfortable",
-  "gutter": { "min_line_number_digits": 3 },
-  "tab_bar": { "show_nav_history_buttons": false },
-  "title_bar": { "show_user_picture": false },
-  "toolbar": { "quick_actions": false, "breadcrumbs": false },
-  "indent_guides": { "coloring": "indent_aware" },
+  "gutter": {
+    "min_line_number_digits": 3,
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+  },
+  "title_bar": {
+    "show_user_picture": false,
+  },
+  "toolbar": {
+    "quick_actions": false,
+    "breadcrumbs": false,
+  },
+  "indent_guides": {
+    "coloring": "indent_aware",
+  },
 
   // --- EDITOR ---
   "format_on_save": "on",
   "tab_size": 2,
-  "preferred_line_length": 100,
+  "preferred_line_length": 90,
   "soft_wrap": "preferred_line_length",
   "colorize_brackets": true,
   "show_wrap_guides": true,
   "disable_ai": false,
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
 
   // --- TERMINAL ---
   "terminal": {
